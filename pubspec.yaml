@@ -37,19 +37,19 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.sen.dcmreader.dicom_reader.dicom_reader_example
+        package: com.sen.dcmreader
         pluginClass: EdDicomViewerPlugin
-#      ios:
-#        pluginClass: DicomReaderPlugin
-#      linux:
-#        pluginClass: DicomReaderPlugin
-#      macos:
-#        pluginClass: DicomReaderPlugin
-#      windows:
-#        pluginClass: DicomReaderPluginCApi
-#      web:
-#        pluginClass: DicomReaderWeb
-#        fileName: dicom_reader_web.dart
+  #      ios:
+  #        pluginClass: DicomReaderPlugin
+  #      linux:
+  #        pluginClass: DicomReaderPlugin
+  #      macos:
+  #        pluginClass: DicomReaderPlugin
+  #      windows:
+  #        pluginClass: DicomReaderPluginCApi
+  #      web:
+  #        pluginClass: DicomReaderWeb
+  #        fileName: dicom_reader_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
