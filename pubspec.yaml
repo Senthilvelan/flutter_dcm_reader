@@ -38,15 +38,15 @@ flutter:
     platforms:
       android:
         package: com.sen.dcmreader
-        pluginClass: EdDicomViewerPlugin
+        pluginClass: DcmDicomViewerPlugin
   #      ios:
-  #        pluginClass: DicomReaderPlugin
+  #        pluginClass: DcmDicomViewerPlugin
   #      linux:
-  #        pluginClass: DicomReaderPlugin
+  #        pluginClass: DcmDicomViewerPlugin
   #      macos:
-  #        pluginClass: DicomReaderPlugin
+  #        pluginClass: DcmDicomViewerPlugin
   #      windows:
-  #        pluginClass: DicomReaderPluginCApi
+  #        pluginClass: DcmDicomViewerPluginApi
   #      web:
   #        pluginClass: DicomReaderWeb
   #        fileName: dicom_reader_web.dart

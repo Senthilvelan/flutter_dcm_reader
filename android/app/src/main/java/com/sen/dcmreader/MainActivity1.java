@@ -1,4 +1,4 @@
-//package com.sen.dcmreader.dicom_reader_example;
+//package com.sen.dcmreader;
 //
 //
 //import android.Manifest;

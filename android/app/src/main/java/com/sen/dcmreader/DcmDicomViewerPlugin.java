@@ -16,15 +16,15 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 
 /**
- * EdDicomViewerPlugin
+ * DcmDicomViewerPlugin
  */
-public class EdDicomViewerPlugin implements FlutterPlugin, MethodCallHandler {
+public class DcmDicomViewerPlugin implements FlutterPlugin, MethodCallHandler {
     private MethodChannel channel;
     private EdDicomManager dicomManager;
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "ed_dicom_viewer");
+        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "dicom_reader");
         channel.setMethodCallHandler(this);
         System.loadLibrary("imebra_lib");
         dicomManager = new EdDicomManager();
