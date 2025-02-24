@@ -1,6 +1,6 @@
 name: dicom_reader
 description: "a simple flutter plugin for the dcm reader, (medical)"
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
