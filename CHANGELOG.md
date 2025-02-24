@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * class path fix.
+
+## 0.0.4
+
+* class name.
