@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import 'ed_dicom_viewer_platform_interface.dart';
+import 'dicom_viewer_platform_interface.dart';
 
-class EdMethodChannelDicomViewer extends EdDicomViewerPlatform {
+class MethodChannelDicomViewer extends DicomViewerPlatform {
   @visibleForTesting
   final methodChannel = const MethodChannel('ed_dicom_viewer');
 

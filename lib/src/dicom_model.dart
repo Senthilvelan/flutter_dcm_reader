@@ -1,4 +1,4 @@
-class EdDicomModel {
+class DicomModel {
   final List<int> decodedBytes;
   final String patientName;
   final String patientGender;
@@ -8,7 +8,7 @@ class EdDicomModel {
   final String patientWeight;
   final String patientHeight;
 
-  EdDicomModel({
+  DicomModel({
     required this.decodedBytes,
     required this.patientName,
     required this.patientGender,
@@ -19,8 +19,8 @@ class EdDicomModel {
     required this.patientHeight,
   });
 
-  factory EdDicomModel.fromJson(Map<String, dynamic> json) {
-    return EdDicomModel(
+  factory DicomModel.fromJson(Map<String, dynamic> json) {
+    return DicomModel(
       decodedBytes: json['decodedBytes'].cast<int>(),
       patientName: json['patientName'],
       patientGender: json['patientGender'],
@@ -34,6 +34,6 @@ class EdDicomModel {
 
   @override
   String toString() {
-    return 'EdDicomModel{patientName: $patientName, patientGender: $patientGender, patientID: $patientID, patientAge: $patientAge, patientBirthDate: $patientBirthDate, patientWeight: $patientWeight, patientHeight: $patientHeight}';
+    return 'DicomModel{patientName: $patientName, patientGender: $patientGender, patientID: $patientID, patientAge: $patientAge, patientBirthDate: $patientBirthDate, patientWeight: $patientWeight, patientHeight: $patientHeight}';
   }
 }
